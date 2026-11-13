@@ -38,3 +38,4 @@ function removeTask(tasks, index) {
 if (typeof module !== "undefined") {
   module.exports = { defaultTasks, addTask, toggleTask, removeTask };
 }
+tasks.push({ title: clean, done: false });
